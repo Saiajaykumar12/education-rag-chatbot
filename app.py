@@ -1,4 +1,3 @@
-from annotated_types import doc
 import streamlit as st
 from rag_engine import load_and_split_pdfs, build_vectorstore, build_qa_chain, ask_question
 
